@@ -1,0 +1,14 @@
+$ sudo apt update
+$ sudo apt upgrade
+$ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) --node16
+아이디 비번 설정후
+디폴트값으로
+
+노드레드 실행
+$ node-red-start
+
+대시보드 설치
+$ sudo apt-get install npm
+$ cd .node-red
+$ sudo npm install node-red-dashboard
+$ sudo reboot now
