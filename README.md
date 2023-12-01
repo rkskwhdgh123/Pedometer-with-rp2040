@@ -1,6 +1,6 @@
 # Pedometer-with-rp2040
 
-rp2040을 이용한 걸음수 측정, gtts 음성 출력
+rp2040을 이용한 걸음수 측정및  현재 상태(stop,run,walking)  gtts 음성으로 출력
 
 
 
