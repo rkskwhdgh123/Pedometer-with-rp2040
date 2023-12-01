@@ -54,7 +54,7 @@ z축 =>  수직으로 점프하는 방향으로의 변화를 나타낸다.
     I2c  통신 프로토콜을 이용해 외부 rp2040장치 => 라즈베리파이 내부로 'rp2040' Topic 으로 Text형식의 데이터를 전송한다.
 
 ---
-waling_test.py
+# <waling_test.py>  
 ```
 import network,time
 from umqtt.simple import MQTTClient #导入MQTT板块
@@ -151,6 +151,9 @@ if WIFI_Connect():
 
 2.'rp2040' Topic으로 날아간 text를 라즈베리파이로 받아와서
 서브모터 속도제어 & Gtts 음성출력 
+
+---
+#<mqtt_test1.py>  
 ```
 import speech_recognition as sr
 from gtts import gTTS
