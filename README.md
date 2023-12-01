@@ -53,7 +53,8 @@ z축 =>  수직으로 점프하는 방향으로의 변화를 나타낸다.
 1.  rp2040 내부의 센서를 이용해서 3축정보를 받아오고 이를가공하여 평균 걸음수를 구하고
     I2c  통신 프로토콜을 이용해 외부 rp2040장치 => 라즈베리파이 내부로 'rp2040' Topic 으로 Text형식의 데이터를 전송한다.
 
-
+---
+waling_test.py
 ```
 import network,time
 from umqtt.simple import MQTTClient #导入MQTT板块
